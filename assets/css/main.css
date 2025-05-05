@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@utility container {
+    margin-inline: auto;
+    padding-inline: 2rem;
+    max-width: 1700px;
+}
+
+@theme {
+    --color-green-200: #DEECE8;
+    --color-green-400: #4BFB84;
+    --color-green-500: #1D5C50;
+    --color-green-800: #0F2C30;
+    --color-lime-500: #CAFF03;
+}
