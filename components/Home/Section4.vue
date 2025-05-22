@@ -5,7 +5,8 @@
 <template>
   <section class="pt-36 pb-24">
     <div class="container">
-      <h2 class="text-5xl font-bold text-green-500 uppercase text-center mb-20">{{ $t('Faq') }}</h2>
+      <h2 v-scroll-animate
+          class="text-5xl font-bold text-green-500 uppercase text-center mb-20">{{ $t('Faq') }}</h2>
       <div class="grid mb-4">
         <Accordion value="0">
           <AccordionPanel v-for="n in 10" :key="n" :value="n">

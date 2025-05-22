@@ -5,7 +5,8 @@
 <template>
   <section class="pt-36 pb-10">
     <div class="container">
-      <h2 class="text-5xl font-bold text-green-500 uppercase text-center mb-20">{{ $t('news') }}</h2>
+      <h2 v-scroll-animate
+          class="text-5xl font-bold text-green-500 uppercase text-center mb-20">{{ $t('news') }}</h2>
       <div class="grid grid-cols-2 gap-16 mb-4">
         <div v-for="n in 4" class="mb-6">
           <div class="mb-4 overflow-hidden rounded-lg">

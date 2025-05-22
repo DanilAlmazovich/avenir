@@ -13,6 +13,10 @@ export default defineNuxtConfig({
     ]
   },
 
+  plugins: [
+    '~/plugins/scrollAnimate.ts'
+  ],
+
   modules: ['@nuxtjs/i18n', '@primevue/nuxt-module'],
   primevue: {
     autoImport: true,
